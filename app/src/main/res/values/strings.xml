@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CAS Mobile</string>
+    <string-array name="user_type">
+        <item>User</item>
+        <item>Company</item>
+    </string-array>
+    <string-array name="product_condition">
+        <item>Good</item>
+        <item>Medium</item>
+        <item>Bad</item>
+        <item>Very Bad</item>
+    </string-array>
+    <string-array name="product_type">
+        <item>Fixed Price</item>
+        <item>Negotiable</item>
+    </string-array>
+    <string-array name="item_type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string name="default_notification_channel_id" translatable="false">CAS_Mobile_fcm_default_channel</string>
+</resources>

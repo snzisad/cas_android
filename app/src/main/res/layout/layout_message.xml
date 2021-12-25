@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+    <ImageView android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/ic_per3"
+               app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="5dp"
+               android:layout_marginStart="5dp" android:layout_marginTop="5dp"
+               app:layout_constraintTop_toTopOf="parent" android:id="@+id/imageView"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_margin="5dp"
+                  android:layout_height="wrap_content">
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/tvPersonName"
+              android:text="Sharif Noor ZIsad"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorDarkLite"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/tvContent"
+              android:layout_marginTop="2dp"
+              android:layout_marginEnd="50dp"
+              android:layout_marginRight="50dp"
+              android:text="Hello I Want to buy this product is it still avaiable? how can i get this prodect"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorDark"
+              android:background="@color/colorAsh"
+              android:padding="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

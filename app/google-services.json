@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1037444427867",
+    "firebase_url": "https://cas-mobile.firebaseio.com",
+    "project_id": "cas-mobile",
+    "storage_bucket": "cas-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037444427867:android:8fc49833ec44d51b",
+        "android_client_info": {
+          "package_name": "com.client.snzisad.casmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037444427867-m96qq8pdlvbt3j9o8iclsifabp7m267q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB44pSaPkh-Zo5u4JPLJ7tsbhxyjA6wGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
